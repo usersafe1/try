@@ -1,7 +1,3 @@
-// ============================
-// Dream Home - script.js
-// ============================
-
 let properties = [];
 
 const container = document.getElementById("propertyContainer");
@@ -30,19 +26,11 @@ const whatsappBtn = document.getElementById("whatsappBtn");
 let currentImages = [];
 let currentImageIndex = 0;
 
-// ============================
-// Format Price
-// ============================
-
 function formatPrice(price) {
 
     return Number(price).toLocaleString("en-US");
 
 }
-
-// ============================
-// Load Properties
-// ============================
 
 fetch("properties.json")
 .then(response => response.json())
@@ -58,10 +46,6 @@ fetch("properties.json")
     console.error("Error:", error);
 
 });
-
-// ============================
-// Display Properties
-// ============================
 
 function displayProperties(list) {
 
@@ -116,10 +100,6 @@ function displayProperties(list) {
     });
 
 }
-
-// ============================
-// Filter Properties
-// ============================
 
 function filterProperties() {
 
@@ -185,10 +165,6 @@ function filterProperties() {
 
 }
 
-// ============================
-// Furnished Filter
-// ============================
-
 function checkFurnishedFilter() {
 
     if (
@@ -216,10 +192,6 @@ function checkFurnishedFilter() {
     }
 
 }
-
-// ============================
-// Price Range
-// ============================
 
 function changePriceRange() {
 
@@ -256,10 +228,6 @@ function changePriceRange() {
 
 }
 
-// ============================
-// Events
-// ============================
-
 searchInput.addEventListener("keyup", filterProperties);
 
 typeFilter.addEventListener("change", () => {
@@ -291,15 +259,9 @@ priceFilter.addEventListener("input", () => {
 
 });
 
-// تشغيل أول مرة
-
 checkFurnishedFilter();
 
 changePriceRange();
-
-// ============================
-// Modal
-// ============================
 
 function openProperty(id) {
 
@@ -335,11 +297,6 @@ function openProperty(id) {
 
 }
 
-
-// ============================
-// Close Modal
-// ============================
-
 document.getElementById("close").addEventListener("click", () => {
 
     modal.style.display = "none";
@@ -356,11 +313,6 @@ window.addEventListener("click", (e) => {
 
 });
 
-
-// ============================
-// Dark Mode
-// ============================
-
 const darkModeBtn =
 document.getElementById("darkModeBtn");
 
@@ -374,11 +326,6 @@ darkModeBtn.addEventListener("click", () => {
         : "🌙";
 
 });
-
-
-// ============================
-// Splash Screen
-// ============================
 
 window.addEventListener("load", () => {
 
@@ -400,10 +347,6 @@ window.addEventListener("load", () => {
     }, 3000);
 
 });
-
-// ============================
-// Image Slider
-// ============================
 
 nextImage.addEventListener("click", () => {
 
