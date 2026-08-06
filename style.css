@@ -1,8 +1,3 @@
-/* ==================================================
-   Arabic Real Estate - Professional CSS
-   Part 1
-================================================== */
-
 *{
     margin:0;
     padding:0;
@@ -43,9 +38,6 @@ img{
     display:block;
 
 }
-
-
-/* ================= HEADER ================= */
 
 
 header{
@@ -170,11 +162,6 @@ header{
 
 }
 
-
-
-/* ================= DARK BUTTON ================= */
-
-
 #darkModeBtn{
 
     width:48px;
@@ -206,11 +193,6 @@ header{
 
 }
 
-
-
-/* ================= HERO ================= */
-
-
 .hero{
 
     height:95vh;
@@ -238,7 +220,6 @@ header{
 
 }
 
-
 .overlay{
 
     width:min(900px,90%);
@@ -248,7 +229,6 @@ header{
     color:white;
 
 }
-
 
 .badge{
 
@@ -266,7 +246,6 @@ header{
 
 }
 
-
 .overlay h1{
 
     font-size:60px;
@@ -277,7 +256,6 @@ header{
 
 }
 
-
 .overlay p{
 
     font-size:22px;
@@ -287,7 +265,6 @@ header{
     line-height:2;
 
 }
-
 
 .btn{
 
@@ -315,7 +292,6 @@ header{
 
 }
 
-
 .btn:hover{
 
     transform:translateY(-7px);
@@ -323,8 +299,6 @@ header{
     background:#1d4ed8;
 
 }
-
-/* ================= SEARCH ================= */
 
 .search{
 
@@ -357,7 +331,6 @@ header{
     0 15px 40px rgba(0,0,0,.08);
 
 }
-
 
 .search-box input,
 .search-box select{
@@ -394,11 +367,6 @@ header{
     0 0 0 4px rgba(37,99,235,.12);
 
 }
-
-
-
-/* ================= PRICE ================= */
-
 
 .price-box{
 
@@ -439,11 +407,6 @@ header{
 
 }
 
-
-
-/* ================= SECTION TITLE ================= */
-
-
 .section-title{
 
     text-align:center;
@@ -470,11 +433,6 @@ header{
 
 }
 
-
-
-/* ================= PROPERTY CARDS ================= */
-
-
 .properties{
 
     width:min(1200px,92%);
@@ -482,7 +440,6 @@ header{
     margin:auto;
 
 }
-
 
 .cards{
 
@@ -495,8 +452,6 @@ header{
     gap:30px;
 
 }
-
-
 
 .card{
 
@@ -516,8 +471,6 @@ header{
 
 }
 
-
-
 .card:hover{
 
     transform:translateY(-10px);
@@ -527,8 +480,6 @@ header{
     0 25px 50px rgba(0,0,0,.15);
 
 }
-
-
 
 .card img{
 
@@ -540,15 +491,11 @@ header{
 
 }
 
-
-
 .card-content{
 
     padding:25px;
 
 }
-
-
 
 .card-content h3{
 
@@ -558,8 +505,6 @@ header{
 
 }
 
-
-
 .location{
 
     color:#64748b;
@@ -567,8 +512,6 @@ header{
     margin-bottom:15px;
 
 }
-
-
 
 .price{
 
@@ -579,11 +522,6 @@ header{
     font-weight:800;
 
 }
-
-
-
-/* ================= ABOUT ================= */
-
 
 .about{
 
@@ -639,7 +577,6 @@ header{
 
 }
 
-
 .about-features{
 
     margin-top:40px;
@@ -653,7 +590,6 @@ header{
     flex-wrap:wrap;
 
 }
-
 
 .feature{
 
@@ -684,8 +620,6 @@ header{
 
 }
 
-/* ================= CONTACT ================= */
-
 .contact{
 
     width:min(1200px,92%);
@@ -693,7 +627,6 @@ header{
     margin:100px auto;
 
 }
-
 
 .contact-cards{
 
@@ -706,7 +639,6 @@ header{
     gap:25px;
 
 }
-
 
 .contact-card{
 
@@ -726,7 +658,6 @@ header{
 
 }
 
-
 .contact-card:hover{
 
     transform:translateY(-10px);
@@ -736,7 +667,6 @@ header{
     0 25px 50px rgba(0,0,0,.15);
 
 }
-
 
 .contact-card .icon{
 
@@ -760,7 +690,6 @@ header{
 
 }
 
-
 .whatsapp .icon{
 
     background:#dcfce7;
@@ -768,7 +697,6 @@ header{
     color:#16a34a;
 
 }
-
 
 .phone .icon{
 
@@ -778,7 +706,6 @@ header{
 
 }
 
-
 .location .icon{
 
     background:#fef3c7;
@@ -786,7 +713,6 @@ header{
     color:#d97706;
 
 }
-
 
 .contact-card h3{
 
@@ -796,7 +722,6 @@ header{
 
 }
 
-
 .contact-card p{
 
     color:#64748b;
@@ -804,9 +729,6 @@ header{
     line-height:1.8;
 
 }
-
-
-/* ================= MODAL ================= */
 
 
 .modal{
@@ -831,7 +753,6 @@ header{
 
 }
 
-
 .modal-content{
 
     width:100%;
@@ -849,7 +770,6 @@ header{
     animation:showModal .35s ease;
 
 }
-
 
 @keyframes showModal{
 
@@ -966,10 +886,6 @@ header{
 }
 
 
-
-/* ================= DARK MODE ================= */
-
-
 body.dark{
 
     background:#020617;
@@ -1043,10 +959,6 @@ body.dark #darkModeBtn{
 
 }
 
-
-/* ================= SPLASH ================= */
-
-
 #splash{
 
     position:fixed;
@@ -1099,7 +1011,6 @@ body.dark #darkModeBtn{
 }
 
 
-
 .splash-content h1{
 
     margin-top:25px;
@@ -1117,7 +1028,6 @@ body.dark #darkModeBtn{
 }
 
 
-
 .splash-content h2{
 
     font-size:28px;
@@ -1133,7 +1043,6 @@ body.dark #darkModeBtn{
 }
 
 
-
 .splash-content p{
 
     margin-top:15px;
@@ -1147,7 +1056,6 @@ body.dark #darkModeBtn{
     animation-delay:1.8s;
 
 }
-
 
 
 @keyframes imageShow{
@@ -1179,7 +1087,6 @@ body.dark #darkModeBtn{
 }
 
 
-
 @keyframes textShow{
 
     from{
@@ -1201,7 +1108,6 @@ body.dark #darkModeBtn{
 
 }
 
-
 .splash-content h1{
 
     margin-top:25px;
@@ -1210,13 +1116,11 @@ body.dark #darkModeBtn{
 
 }
 
-
 .splash-content h2{
 
     font-size:28px;
 
 }
-
 
 .splash-content p{
 
@@ -1225,7 +1129,6 @@ body.dark #darkModeBtn{
     opacity:.8;
 
 }
-
 
 @keyframes pop{
 
@@ -1245,9 +1148,6 @@ body.dark #darkModeBtn{
     }
 
 }
-
-/* ================= RESPONSIVE ================= */
-
 
 @media(max-width:900px){
 
@@ -1501,11 +1401,6 @@ body.dark #darkModeBtn{
 
 }
 
-
-
-/* ================= SPLASH HIDE ================= */
-
-
 .hideSplash{
 
     opacity:0;
@@ -1513,10 +1408,6 @@ body.dark #darkModeBtn{
     pointer-events:none;
 
 }
-
-
-
-/* ================= SMOOTH ANIMATION ================= */
 
 
 .card,
@@ -1552,11 +1443,6 @@ body.dark #darkModeBtn{
 
 }
 
-
-
-/* ================= SELECTION ================= */
-
-
 ::selection{
 
     background:#2563eb;
@@ -1564,10 +1450,6 @@ body.dark #darkModeBtn{
     color:white;
 
 }
-
-
-
-/* ================= SCROLLBAR ================= */
 
 
 ::-webkit-scrollbar{
@@ -1599,8 +1481,6 @@ body.dark::-webkit-scrollbar-track{
 
 }
 
-/* ================= Property Info ================= */
-
 .property-info{
 
     display:flex;
@@ -1630,8 +1510,6 @@ body.dark::-webkit-scrollbar-track{
     color:#444;
 
 }
-
-/* Dark Mode */
 
 body.dark .property-info{
 
