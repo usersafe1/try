@@ -18,14 +18,19 @@
     "bathrooms": 1
   },
   {
-    "id": 2,
+    "id":2 ,
     "title": "شقة مودرن",
     "type": "شقة",
     "status": "إيجار",
     "location": "الإسكندرية",
     "furnished" : "مفروشة",
     "price": 3200000,
-    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+    "img/items/item2/1.jpg",
+    "img/items/item2/2.jpg",
+    "img/items/item2/3.jpg",
+    "img/items/item2/4.jpg"
+    ],
     "description": "شقة تشطيب سوبر لوكس بالقرب من البحر.",
     "area": 160,
     "rooms": 3,
